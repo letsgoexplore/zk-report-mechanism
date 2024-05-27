@@ -1,6 +1,6 @@
 pragma circom 2.0.0;
 
-include "./circomlib/circuits/sha256/sha256.circom" ;
+include "../circomlib/circuits/sha256/sha256.circom" ;
 
 template VerifyXorAndSlot(slotNum, randLength, bitLength, reserveLength, maxSelectedSlot) {
     // step 1: 定义输入、中间变量与输出
